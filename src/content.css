@@ -1,0 +1,87 @@
+    .content {
+        padding: 10px;
+    }
+    
+    .card {
+        border: 1px;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding: 10px;
+    }
+    
+    .title {
+        padding: 8px 0px 8px 25px;
+        margin: 0 0 20px 10px;
+    }
+    
+    .form {
+        padding: 20px 10px 10px 10px;
+        margin: 0 0 10px 10px;
+    }
+    
+    .fields>div>div {
+        display: grid;
+        grid-template-columns: repeat( auto-fill, minmax(400px, 400px));
+    }
+    
+    .tag {
+        display: inline-block;
+    }
+    
+    .fields>div {
+        padding: 27px 20px 20px 20px;
+    }
+    
+    input,
+    select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 1px solid;
+        border-radius: 10px;
+        outline: thin;
+    }
+    
+    input[type="file"] {
+        padding: 9px 12px;
+        cursor: pointer;
+    }
+    
+    input:focus {
+        background-color: lightblue;
+    }
+    
+    .buttons {
+        padding: 10px;
+        margin: 0 0 5px 10px;
+    }
+    
+    .button {
+        box-shadow: rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        padding: 20px;
+        min-width: 100px;
+        border: 0px;
+        width: 100px;
+        padding: 5px;
+        border-radius: 4px;
+    }
+    
+    .button:hover {
+        transform: translate(2px, 1px);
+    }
+    
+    .create {
+        background: #3498db;
+        color: #ffffff;
+        margin-right: 20px;
+    }
+    
+    .cancel {
+        background: rgba(240, 0, 0, 0.8);
+    }
+    
+    .hide {
+        display: none;
+    }
